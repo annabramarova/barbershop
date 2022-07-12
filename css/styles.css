@@ -203,6 +203,69 @@ body {
   color: var(--second-text-color);
 }
 
+.service-pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--header-color);
+}
+
+.service-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+}
+
+.features-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+
+  color: var(--main-black-color);
+}
+
+.features-number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+  letter-spacing: 0.05em;
+
+  color: var(--main-black-color);
+}
+
+.features-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--main-black-color);
+}
+
+.features-pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--main-black-color);
+}
+
+.features-description {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
 .address .link {
   font-style: normal;
   font-size: 14px;
