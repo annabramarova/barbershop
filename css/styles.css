@@ -144,15 +144,6 @@ body {
   padding-bottom: 130px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-}
-
 .works-pretitle {
   font-weight: 600;
   font-size: 11px;
@@ -163,7 +154,9 @@ body {
   color: var(--main-black-color);
 }
 
-.works-title {
+.features-title,
+.works-title,
+.team-title {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -213,6 +206,8 @@ body {
   color: var(--header-color);
 }
 
+.form-title,
+.contacts-title,
 .service-title {
   font-family: "Raleway";
   font-style: normal;
@@ -220,17 +215,8 @@ body {
   font-size: 42px;
   line-height: 49px;
   letter-spacing: 0.05em;
-}
 
-.features-title {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 49px;
-  letter-spacing: 0.05em;
-
-  color: var(--main-black-color);
+  color: var(--main-white-color);
 }
 
 .features-number {
@@ -240,6 +226,13 @@ body {
   letter-spacing: 0.05em;
 
   color: var(--main-black-color);
+}
+
+.index {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--accent-color);
 }
 
 .features-text {
@@ -266,13 +259,94 @@ body {
   letter-spacing: 0.02em;
 }
 
+.team-pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--main-black-color);
+}
+
+.team-list .title {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: var(--main-black-color);
+}
+
+.team-list .description {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.gallery-list {
+  display: flex;
+}
+
+.gallery-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.gallery-pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--main-black-color);
+}
+
+.service,
+.form,
+.contacts {
+  background-color: var(--footer-header-color);
+}
+
 .address .link {
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-
   color: var(--second-text-color);
+}
+
+.address-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.contacts-list .item {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.contacts-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+
+.contacts-description {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 }
 
 .footer {
